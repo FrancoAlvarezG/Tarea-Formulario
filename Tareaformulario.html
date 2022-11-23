@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Tarea Formulario</title>
+</head>
+<body>
+    <h1>Formulario de encuesta GeeksforGeeks</h1>
+    <div class="form-register">
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input class="controls" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre"> <br><br>
+        <label for="email">Email</label>
+        <input class="controls" type="text" id="email" name="email" placeholder="Ingrese su Email"> <br><br>
+        <label for="edad">Edad</label>
+        <input class="controls" type="text" id="edad" name="edad" placeholder="Ingrese su Edad"> <br><br>
+        
+        <p>¿Qué opción te describe mejor?</p>
+        <select name="cars" id="cars">
+            <option value="Estudiante">Estudiante</option>
+            <option value="Profesor">Profesor</option>
+            <option value="Directivo">Directivo</option>
+            <option value="Egresante">Egresante</option>
+        </select>
+
+        <p>¿Recomendarías GeeksforGeeks a un amigo?</p>
+        <input type="radio" id="si" name="Recomendarías" value="si">
+        <label for="si">Si</label> <br>
+        <input type="radio" id="no" name="Recomendarías" value="no">
+        <label for="no">No</label> <br>
+        <input type="radio" id="quizas" name="Recomendarías" value="quizas">
+        <label for="quizas">Quizas</label> <br>  
+
+        <p>Idiomas y marcos conocidos (marque todos los que correspondan)</p>
+        <input type="checkbox" id="JavaScript" name="idiomas" value="JavaScript">
+        <label for="javascript">JavaScript</label> <br>
+        <input type="checkbox" id="Angular" name="idiomas" value="Angular">
+        <label for="angular">Angular</label> <br>
+        <input type="checkbox" id="Python" name="idiomas" value="Python">
+        <label for="Python">Python</label> <br>
+        <input type="checkbox" id="Java" name="idiomas" value="Java">
+        <label for="Java">Java</label> <br>
+        <input type="checkbox" id="C++" name="idiomas" value="C++">
+        <label for="C++">C++</label> <br>
+        <input type="checkbox" id="React" name="idiomas" value="React">
+        <label for="React">React</label> <br>
+        <input type="checkbox" id="Django" name="idiomas" value="Django">
+        <label for="Django">Django</label> <br>
+        <input type="checkbox" id="Spring" name="idiomas" value="Spring">
+        <label for="Spring">Spring</label> <br>
+
+        <p>Cualquier comentario o sugerencia:</p>
+
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+        
+        </textarea>
+        <input class="botons" type="submit" value="Registrar">
+    </form>
+</div>
+
+    
+</body>
+</html>
